@@ -1,9 +1,10 @@
 browser.runtime.onInstalled.addListener(() => {
     browser.contextMenus.create({
         id: "skipAds",
-        title: "Skip YouTube Ads",
-        contexts: ["link"], // Only show for link context
-        targetUrlPatterns: ["*://www.youtube.com/watch?v=*"]
+        title: "Youtube Adds be gone!",
+        //contexts: ["link"], // Only show for link context
+        targetUrlPatterns: ["*://www.youtube.com/watch?v=*"],
+        icons: { "16": "icon.png" } // Add the icon here
     });
 });
 
