@@ -6,6 +6,7 @@ A Firefox extension that allows users to redirect from YouTube to a modified URL
 
 - Click the extension icon on YouTube video pages to redirect to a custom domain that doesn't show ads.
 - Simple and easy-to-use interface with no additional buttons required.
+- Right-click context menu option to instantly skip ads when navigating youtube video links on youtube.com
 
 ## Installation
 
