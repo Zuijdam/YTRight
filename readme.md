@@ -16,7 +16,7 @@ A Firefox extension that allows users to redirect from YouTube to a modified URL
 
    ```bash
    git clone https://github.com/yourusername/youtube-ad-skipper.git
-   ``\`
+   ```
 
 2. **Open Firefox** and navigate to `about:debugging`.
 
