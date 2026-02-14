@@ -23,9 +23,13 @@
     "icons": {
         "16": "icon.png"
     },
-    "applications": {
+    "browser_specific_settings": {
         "gecko": {
-            "id": "{8cd63403-0a72-4d8f-b973-c5318f3ab87c}"  
+            "id": "{8cd634d3-0a72-4d8f-b973-c5318f3ab87c}",
+            "data_collection_permissions": {
+                "required": ["none"],
+                "optional": []
+            }
         }
     }
 }
