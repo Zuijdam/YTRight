@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
-    "name": "YouTube Ad Skipper",
-    "version": "1.2",
+    "name": "YTRight",
+    "version": "1.3",
     "permissions": [
         "tabs",
         "activeTab",
@@ -18,6 +18,14 @@
             "48": "icon48.png",
             "128": "icon128.png"
         },
-        "default_title": "Skip YouTube Ads"
+        "default_title": "Goto -nocookie version of YouTube"
+    },
+    "icons": {
+        "16": "icon.png"
+    },
+    "applications": {
+        "gecko": {
+            "id": "{8cd63403-0a72-4d8f-b973-c5318f3ab87c}"  
+        }
     }
 }

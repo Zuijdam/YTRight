@@ -1,15 +1,15 @@
 browser.runtime.onInstalled.addListener(() => {
     browser.contextMenus.create({
-        id: "skipAds",
-        title: "Youtube Adds be gone!",
-        //contexts: ["link"], // Only show for link context
+        id: "YTRight", // Unique ID for the menu item
+        title: "Goto -nocookie version of YouTube", // Menu item title
+        contexts: ["link"], // Only show for link context
         targetUrlPatterns: ["*://www.youtube.com/watch?v=*"],
-        icons: { "16": "icon.png" } // Add the icon here
+        icons: { "16": "icon.png" } 
     });
 });
 
 browser.contextMenus.onClicked.addListener((info) => {
-    if (info.menuItemId === "skipAds") {
+    if (info.menuItemId === "YTRight") {
         const videoUrl = info.linkUrl;
         const videoId = new URL(videoUrl).searchParams.get("v");
         const newUrl = `https://www.yout-ube.com/watch?v=${videoId}`;

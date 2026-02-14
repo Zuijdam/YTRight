@@ -1,12 +1,12 @@
-# YouTube Ad Skipper
+# YTright
 
-A Firefox extension that allows users to redirect from YouTube to a modified URL, helping to skip ads and avoid interruptions while watching videos.
+A Firefox extension that allows users to redirect from YouTube to a the official -nocookie URL. 
 
 ## Features
 
-- Click the extension icon on YouTube video pages to redirect to a custom domain that doesn't show ads.
+- Click the extension icon on YouTube video pages to redirect to -nocookie.
 - Simple and easy-to-use interface with no additional buttons required.
-- Right-click context menu option to instantly skip ads when navigating youtube video links on youtube.com
+- Right-click context menu 
 
 ## Installation
 
